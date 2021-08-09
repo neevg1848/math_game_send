@@ -1,0 +1,56 @@
+body
+{
+	background-image: url("anbu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+
+.login_1 , .login_2
+{
+	background: linear-gradient(234deg, red, crimson,pink, white);
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+    opacity: 50%;
+    margin-right: 50%;
+    border-color: whitesmoke;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
+.login_1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.login_2{
+    margin-bottom: 20%;
+    margin-left: 70%;
+}
+#name1 , #name2
+{
+	display: inline-block;
+    opacity: 50%;
+}
+
+#addUser
+{
+    width: 20%;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+#but{
+    text-align: center;
+}
+#forpass{
+    opacity: 90%;
+}
+#logo{
+    float: left;
+    bottom: 50%
+    width: 115px;
+    height: 115px; 
+    opacity: 80%;
+    padding: 10px;
+}

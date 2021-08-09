@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math & Multiplication Madness</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="math_game.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div id="score_board">
+        <b><h5 id="display1" style="font-weight: bold; font-family:sans-serif; color: black; font-size: 27px;"> </h5><span id="score1" style="background-color: greenyellow;">Score</span></b>
+        <b><h5 id="display2" style="font-weight: bold; font-family:sans-serif; color: white; font-size: 25px;"> </h5><span id="score2" style="background-color: green;">Score</span></b>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<center>
+        <center>
+		<b><h2 style="color: black; text-align: center; font-size: 60px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold;">The Math Game</h2></b>
+        <br>
+        
+        <div id="answer" style="text-align: center;">
+    
+        </div>
+		<br>
+		<br>
+        <br>
+        <br>
+        </center>
+		
+        <b><h4 style="font-weight: bold; font-size: 30px; color:springgreen; float: left; margin-right: 15px;">Input Number 1</h4></b>
+        <input style="height: 40px; width: 250px; border-radius: 20px; border-color: greenyellow; border-width: 5px; font-size: 25px; float: left;"type="number" id="number_in1"></input>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+               
+        
+        <b><h4 style="font-weight: bold; font-size: 30px; color:orangered; float: right; margin-left: 15px;">Input Number 2</h4></b>
+        <input style="height: 40px; width: 250px; border-radius: 20px; border-color: greenyellow; border-width: 5px; font-size: 25px; float: right;"type="number" id="number_in2"></input>
+        <br>
+        <br>
+        <br>
+        <p style="color: yellowgreen; font-size: medium;" id="exception"></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <b><button id="button" onclick="ask()" style="color: black; background-color: green; border-radius: 20px; width: 250px; height: 50px; border-color: black; font-size: 25px;">Send</button></b>
+		<br>
+
+        <br>
+        <br>
+    
+	</center>
+</div>
+
+<script src="math_game.js"></script>
+</body>
+</html>
